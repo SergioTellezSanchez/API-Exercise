@@ -35,7 +35,7 @@ render() {
 		else {
 			return (
 						<div className='tc'>
-							<h1 className='f1' >RoboFriends</h1>
+							<h1 className='f1' href="index2.html" >RoboFriends</h1>
 							<SearchBox searchChange={this.onSearchChange}/>
 							<Scroll>
 								<ErrorBoundry>
